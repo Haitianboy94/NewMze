@@ -1,1 +1,2 @@
-# NewMze
+# myMaze
+mazing
