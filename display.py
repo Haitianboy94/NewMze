@@ -36,9 +36,9 @@ def display_ascii(maze: Maze, path: List[str] = []) -> None:
 
             # Cell content
             if (row_x, row_y) == maze.entry:
-                content = " E "
+                content = " 🐌 "
             elif (row_x, row_y) == maze.exit:
-                content = " X "
+                content = " 🏁 "
             elif (row_x, row_y) in path_cells:
                 content = " · "
             else:
